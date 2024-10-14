@@ -1,0 +1,39 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}
+
+.petritable {
+    width: 80vh;
+    height: 80vh;
+    border: 1px solid #ffffff;
+    border-collapse: collapse;
+    margin: auto;
+}
+.cell{
+    width: 1em;
+    height: 1em;
+    border: 1px solid #cfffcc;
+    border-collapse: collapse;
+
+}
+.deadcell {
+    background-color: #e6fff2;
+}
+
+.alivecell {
+    background-color: #00992e;
+}
+
+.general {
+    background-color: #ffffff;
+}
+
+.buttons {
+    border-radius: 5px;
+    font-size: 1em;
+    padding: 0.5em;
+    border: 1px solid #8bf8a4;
+    background-color: #099029;
+}
